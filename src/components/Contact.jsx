@@ -140,7 +140,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border rounded-lg"
+                className="w-full px-4 py-3 border mt-[39px] rounded-lg"
               />
 
               <input

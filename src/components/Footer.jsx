@@ -78,7 +78,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-lg">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>hassan421926@gmail.com</li>
-              <li>+92 314 1484672</li>
+              <li>+92 347 7479330</li>
               <li>Available for freelance</li>
             </ul>
           </div>

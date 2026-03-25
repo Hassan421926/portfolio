@@ -11,14 +11,14 @@ export default function Hero() {
     <section
       id="hero"
       className="min-h-screen flex items-center px-[8%] pt-32 pb-20 relative overflow-hidden"
-       
+
     >
 
-         <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl animate-pulse-slow" />
-                <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/20 rounded-full blur-3xl animate-pulse-slow" />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-blue-200/20 to-purple-200/20 rounded-full blur-3xl" />
-           </div>
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/20 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-blue-200/20 to-purple-200/20 rounded-full blur-3xl" />
+      </div>
       {/* Orbs */}
       <div
         className="absolute rounded-full -top-24 -right-24 animate-float"
@@ -34,20 +34,20 @@ export default function Hero() {
         <div>
           <motion.div {...fadeUp(0)} className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-7 border"
             style={{ background: 'rgba(56,189,248,0.06)', borderColor: 'rgba(56,189,248,0.18)' }}>
-          <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-            <span className="text-xs text-cyan-400 font-semibold tracking-widest uppercase">Open to Opportunities</span>
+            <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+            <span className="text-xs text-cyan-400 font-bold tracking-widest uppercase">Open to Opportunities</span>
           </motion.div>
 
           <motion.h1 {...fadeUp(0.1)} className="font-black leading-[1.05] tracking-tight" style={{ fontSize: 'clamp(2.8rem,6vw,5rem)' }}>
-            <span 
-            style={{
-    background: 'linear-gradient(135deg, #6d28d9, #c084fc)', // dark → light purple
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent',
-  }}
-            
-            
-            
+            <span
+              style={{
+                background: 'linear-gradient(135deg, #6d28d9, #c084fc)', // dark → light purple
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}
+
+
+
             >Hassan</span>
             <br />
             <span style={{ background: 'linear-gradient(135deg,#38bdf8,#3b82f6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
@@ -116,11 +116,11 @@ export default function Hero() {
 
             {/* Floating chips */}
             <div className="absolute -right-6 top-6 flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold border animate-chip"
-              style={{ background: '#111827', borderColor: 'rgba(99,179,237,0.12)', boxShadow: '0 0 30px rgba(56,189,248,0.1)' }}>
+              style={{ background: '#111827', color: 'white', borderColor: 'rgba(99,179,237,0.12)', boxShadow: '0 0 30px rgba(222, 222, 222, 0.1)' }}>
               ⚛️ React Dev
             </div>
             <div className="absolute -left-8 bottom-10 flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold border"
-              style={{ background: '#111827', borderColor: 'rgba(99,179,237,0.12)', animation: 'chipFloat 4s ease-in-out infinite', animationDelay: '-2s' }}>
+              style={{ background: '#111827', color: 'white', borderColor: 'rgba(99,179,237,0.12)', animation: 'chipFloat 4s ease-in-out infinite', animationDelay: '-2s' }}>
               🎨 UI Designer
             </div>
           </div>
