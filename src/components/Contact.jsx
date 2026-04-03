@@ -84,7 +84,7 @@ const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-            Let's Work <span className="gradient-text">Together</span>
+            {"Let's"} Work <span className="gradient-text">Together</span>
           </h2>
         </motion.div>
 

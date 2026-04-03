@@ -53,7 +53,7 @@ const About = () => {
               Building the Web, One Pixel at a Time
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6 text-sm mt-6">
-              Hey! I'm <span className='font-bold'>Hassan Muawia</span>, a passionate Frontend Developer focused on crafting clean, responsive, and high-performance web interfaces. I love turning ideas into interactive, visually compelling digital experiences.
+              Hey! {"I'm"} <span className='font-bold'>Hassan Muawia</span>, a passionate Frontend Developer focused on crafting clean, responsive, and high-performance web interfaces. I love turning ideas into interactive, visually compelling digital experiences.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8 text-sm">
               My approach combines modern technologies with strong design principles — ensuring every project is not just functional, but also <strong>beautiful and accessible.</strong>

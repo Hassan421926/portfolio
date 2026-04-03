@@ -57,7 +57,11 @@ const ServiceCard = ({ service, index }) => (
       </ul>
     </div>
   </motion.div>
+
+  
 );
+
+
 
 const Services = () => {
   return (
